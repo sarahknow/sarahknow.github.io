@@ -27,28 +27,13 @@
 	color: black;
 	font-family: "quicksand", serif;
 	text-transform: uppercase;
+	font-size:18px;
 	font-weight: 400;
 	margin-right:5%;
 	border-bottom:none;
 	text-decoration:none;
 	
 }
-
-
-/*
-.nav a {
-	color: #aaa;
-	font-family: "Quicksand", serfi;
-	text-transform:uppercase;
-	color: #333;
-    font-weight: 400;
-    margin: 0 0 0 20px;
-    font-size: 1.4em;
-	text-decoration: none;
-	border-bottom: none;
-}
-*/
-
 
 .nav a:hover {
 	color: #333;
@@ -74,6 +59,9 @@
 }
 
 
+@media screen and (max-width: 55em) {
+	
+}
 
 /* Content */
 
