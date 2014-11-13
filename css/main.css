@@ -13,7 +13,7 @@
 }
 
 .logo {
-	width: 12%;
+	width: 150px;
 	float: left;
 	padding-top: 1em;
 	padding-left: 2em;
@@ -28,7 +28,7 @@
 	font-family: "quicksand", serif;
 	text-transform: uppercase;
 	font-weight: 400;
-	margin-right:5em;
+	margin-right:5%;
 	border-bottom:none;
 	text-decoration:none;
 	
