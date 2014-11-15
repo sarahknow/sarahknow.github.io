@@ -1,9 +1,7 @@
 /* Navigation */
 .fixed-header {
 	position: fixed;
-	background: white;
 	width: 100%;
-	position: relative;
 	display: inline-block;
     top: 0;
     left: 0;
@@ -68,7 +66,7 @@
 body {
 	margin: 0;
 	padding: 0;
-	background-color:white;
+	background-color:#FFDA1D;
 }
 
 img {
@@ -84,29 +82,38 @@ section {
 	width: 75%;
 }
 
-.a-one {
+.beyonce-section {
 	background: transparent url(../images/08.jpg) no-repeat center top;
 	background-size: cover;
 }
 
+.rugby {
+	width: 75%;
+	opacity: 0;
+}
+
+.js-rugby-fade {
+	-webkit-animation: rugby-fade 1s linear forwards;
+	-moz-animation: rugby-fade 1s linear forwards;
+	-ms-animation: rugby-fade 1s linear forwards;	
+}
 
 
+@-webkit-keyframes rugby-fade {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+ 
+.work {
+	background-color:white;
+}
+
+.contact {
+	background-color:#FD5757;
+}
 
 
-/* 
-<div class="fixed-header">
-	<a href="#"><img src="images/sarahknowles.svg" alt="Sarah Knowles" class="logo"></a>
-	<nav class="nav">
-		<ul class="fixed-menu">
-			<li> <a href="#"> About Me </a></li>
-			<li> <a href="#"> Work </a></li>
-			<li> <a href="#"> Let's Chat </a></li>
-		</ul>
-	</nav>
-</div>
-
-<section class="a-one">
-	<img class="beyonce" src="images/beyonce.svg" alt="Hi, My Name is Sarah Knowles. And No, I'm not related to Beyonce">
-</section>
-
-*/
