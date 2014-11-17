@@ -181,7 +181,6 @@ section {
 .ch-grid {
     display: block;
 	float:left;
-    text-align: center;
     width: 100%;
 	margin:0;
 	padding: none;
@@ -205,9 +204,23 @@ section {
 	float:left;
 	padding:none;
 	margin: 0;
+	text-align:center;
 }
 
-@media only screen and (min-width: 38em){
+
+@media only screen and (min-width: 32em){
+.box {
+    width: 50%;
+	height:300px;
+}
+
+.ch-info h3 {
+    padding: 65px 0 0 0;
+}
+}
+
+
+@media only screen and (min-width: 45em){
 .box {
     width: 33.3%;
 	height:300px;
@@ -230,10 +243,7 @@ section {
 	
 }
 
-@media only screen and (min-width: 75em){
-	
-	
-}
+
 
 .ch-item {
     width: 100%;
@@ -321,10 +331,10 @@ section {
 .ch-info p {
     color: #fff;
     padding: 10px 5px;
-    font-style: italic;
     margin: 0 30px;
     font-size: 12px;
     border-top: 1px solid rgba(255,255,255,0.5);
+	font-family:'Quicksand', sans-serif;
 }
  
 .ch-info p a {
@@ -336,7 +346,7 @@ section {
     font-size: 9px;
     letter-spacing: 1px;
     padding-top: 4px;
-    font-family: 'Open Sans', Arial, sans-serif;
+    font-family: 'Quicksand', Arial, sans-serif;
 }
  
 .ch-info p a:hover {
