@@ -8,6 +8,7 @@
     z-index: 10000;
     height: 75px;
     overflow: hidden;
+	background:rgba(255,255,255,0.89);
 }
 
 .logo {
@@ -80,10 +81,17 @@ section {
 
 .beyonce {
 	width: 75%;
+	margin:auto;
+	padding:1rem;
 }
 
 .beyonce-section {
-	background: transparent url(../images/08.jpg) no-repeat center top;
+	background: transparent url("../images/a2.jpg") no-repeat center top;
+	background-size: cover;
+}
+
+.rugby-section {
+	background: transparent url("../images/a3.jpg") no-repeat center top;
 	background-size: cover;
 }
 
@@ -100,6 +108,23 @@ section {
 
 
 @-webkit-keyframes rugby-fade {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+@-ms-keyframes rugby-fade {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@-moz-keyframes rugby-fade {
 	0% {
 		opacity: 0;
 	}
