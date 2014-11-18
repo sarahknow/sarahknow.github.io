@@ -26,7 +26,7 @@
 	top: 15px;
 	display: inline-block;
 	color: black;
-	font-family: "quicksand", serif;
+	font-family: "Raleway", serif;
 	text-transform: uppercase;
 	font-size:15px;
 	font-weight: 400;
@@ -89,7 +89,7 @@
 }
 
 .nav a:active {
-   color: #FFDE21;
+   color: red;
 	font-weight: 700;
 	border-bottom: 2px solid #FFDE21; 
 }
@@ -365,4 +365,79 @@ section {
     transform: scale(1);    
 }
 
+/* Slides */
 
+p {
+	font-family: 'muli', sans-serif;
+	padding-left: 2rem;
+	padding-bottom:1rem;
+	padding-right: 1.5rem;
+	margin: 0;
+	font-size:11px;
+}
+
+.deck {
+	background:white;
+	overflow:hidden;
+}
+
+.banner {
+	width: 100%;
+}
+
+.img-wide {
+	margin:0;
+	width:100%;
+}
+
+h2 {
+	margin: 0;
+	font-weight: 700;
+	text-transform:uppercase;
+	padding-left: 2rem;
+	padding-top: 2rem;
+	text-align: center;
+}
+
+h4 {
+	color:red;
+	text-transform: uppercase;
+	font-weight: 400;
+	text-align:center;
+	margin-top:0;
+}
+
+h5 {
+	text-transform:uppercase;
+	font-family:'muli', sans-serif;
+	padding-left: 2rem;
+	margin:0;
+}
+
+.sample-img {
+	width:100%;
+	margin:0;
+}
+
+.tiled-img {
+	width: 100%;
+}
+
+
+@media only screen and (min-width: 38em){
+	.text-thirds {
+		float:left;
+		width: 50%;
+	}
+	
+	
+	.img-thirds {
+		text-align: center;
+		width: 49%;
+	}
+	
+	.sample-img {
+		width: 75%;
+		margin:auto;
+	}
+}
