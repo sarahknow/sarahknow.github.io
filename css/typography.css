@@ -55,14 +55,21 @@ small, .milli {
   line-height: 1.8984;
 }
 
-h1, h2, h3, h4, h5, h6,
+h1 {
+	color:white;
+	font-family:'raleway',sans-serif;
+	text-transform:uppercase;
+	font-weight: 400;	
+}
+
+h2, h3, h4, h5, h6,
 .brand {
   color: #333;
-  font-family: "Raleway",serif;
+  font-family: "Raleway",sans-serif;
 }
 
 .brand-family {
-  font-family: "Raleway",serif;
+  font-family: "Raleway",sans-serif;
 }
 
 .brand-color {
