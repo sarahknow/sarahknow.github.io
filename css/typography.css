@@ -55,14 +55,13 @@ small, .milli {
   line-height: 1.8984;
 }
 
-h1 {
+h1, h6 {
 	color:white;
 	font-family:'raleway',sans-serif;
-	text-transform:uppercase;
-	font-weight: 400;	
+	text-transform:uppercase;	
 }
 
-h2, h3, h4, h5, h6,
+h2, h3, h4, h5,
 .brand {
   color: #333;
   font-family: "Raleway",sans-serif;
