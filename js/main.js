@@ -22,6 +22,12 @@ $contactSection.waypoint(function () {
 }, {offset: '50%'});
 
 $(document).ready(function(e){
+   $('#dropdown').on('click',function(){
+      $('.dropdownwrap').slideToggle();
+   });
+})
+
+$(document).ready(function(e){
    $('#dropdownone').on('click',function(){
       $('.dropdownwrapone').slideToggle();
    });

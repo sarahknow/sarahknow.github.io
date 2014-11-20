@@ -70,8 +70,6 @@
 	
 }
 
-
-
 .nav a:hover {
 	color: #333;
 }
@@ -168,12 +166,46 @@ section {
 	}
 }
  
-.work {
+ @media only screen and (min-width: 55em){
+	.rugby {
+		width: 50%;
+	}
+	
+	.beyonce {
+		width: 65%;
+	}
+}
+
+.work,
+.about-me {
 	background-color:white;
 	overflow:auto;
 	padding: none;
 }
 
+.about-me {
+	padding-bottom: 2rem;
+}
+
+.quote {
+	text-align:center;
+	color: black;
+	margin: auto;
+	padding: 0rem 2rem 2rem;
+}
+
+.img-logo {
+	width: 35%;
+	margin: auto;
+	padding: 0;
+	padding-top: 2rem;
+	padding-bottom:2rem;
+}
+
+.img {
+	width:100%;
+	padding: 0;
+}
 
 /* Work */
 
@@ -241,8 +273,6 @@ section {
 }
 	
 }
-
-
 
 .ch-item {
     width: 100%;
@@ -643,6 +673,7 @@ h6 {
 
 /* Drop Down */
 
+.dropdownwrap,
 .dropdownwrapone, 
 .dropdownwraptwo,
 .dropdownwrapthree,
