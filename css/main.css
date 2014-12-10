@@ -1,3 +1,24 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+	box-sizing: border-box;
+	-moz-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	text-size-adjust: 100%;
+}
+
+
+.flex {
+	display: block;
+	width: 100%;
+}
+
+
 /* Navigation */
 .fixed-header {
 	position: fixed;
@@ -93,6 +114,12 @@
 	border-bottom: 2px solid #FFDE21; 
 }
 
+.sarah-img {
+	padding-top: 4rem;
+	padding-bottom: 0;
+	margin: 0;
+}
+
 
 /* Content */
 
@@ -183,9 +210,6 @@ section {
 	padding: 0;
 }
 
-.about-me {
-	padding-bottom: 2rem;
-}
 
 .quote {
 	text-align:center;
@@ -262,10 +286,11 @@ section {
 }
 }
 
+
 @media only screen and (min-width: 65em){
 .box {
-    width: 25%;
-	height:300px;
+    width: 33.3%;
+	height:400px;
 }
 
 .ch-info h3 {
@@ -384,7 +409,7 @@ section {
 
 .ch-item:hover {
     box-shadow: 
-        inset 0 0 0 175px rgba(255,219,59,0.6),
+        inset 0 0 0 300px rgba(255,219,59,0.6),
         inset 0 0 0 0px rgba(255,255,255,0.8),
         0 1px 2px rgba(0,0,0,0.1);
 }
@@ -474,6 +499,10 @@ h5 {
 	clear: both;	
 }
 
+.text-thirds {
+	width: 100%; 
+	display: inline-block;
+}
 
 @media only screen and (min-width: 38em){
 	h2 { 
@@ -489,15 +518,19 @@ h5 {
 		width: 95%;
 	}
 	
+	.text-thirds {
+		width: 50.1%;
+	}
 	.text-thirds-left {
 		float:left;
 		width: 50%;
 	}
 	
 	.text-thirds-right {
-		float: right;
-		width: 50%;
+		float:right;
+		width: 49.9%;
 	}
+	
 	
 	.text {
 		width: 100%;
@@ -518,7 +551,7 @@ h5 {
 @media only screen and (min-width: 55em){
 	
 	.text-thirds {
-		float:left;
+		display:inline-block;
 		width: 25%;
 	}
 
@@ -536,7 +569,10 @@ h5 {
 
 /* Contact */
 
+
 .contact-section {
+	background-color:none;
+	background-image:url("../images/b2.jpg");
 	text-align:center;
 	padding-top: 3rem;
 	padding-bottom: 3rem;
