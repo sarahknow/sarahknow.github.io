@@ -21,62 +21,57 @@ $contactSection.waypoint(function () {
 	$contact.addClass('js-contact-fade');
 }, {offset: '50%'});
 
-$(document).ready(function(e){
-   $('#dropdown').on('click',function(){
-      $('.dropdownwrap').slideToggle();
-   });
-})
 
-$(document).ready(function(e){
-   $('#dropdownone').on('click',function(){
-      $('.dropdownwrapone').slideToggle();
-   });
-})
+$('#dropdown').on('click',function(){
+  $('.dropdownwrap').slideToggle(1000);
+});
 
-$(document).ready(function(e){
-   $('#dropdowntwo').on('click',function(){
-      $('.dropdownwraptwo').slideToggle();
-   });
-})
 
-$(document).ready(function(e){
-   $('#dropdownthree').on('click',function(){
-      $('.dropdownwrapthree').slideToggle();
-   });
-})
+$('#dropdownone').on('click',function(){
+  $('.dropdownwrapone').slideToggle(1000);
+});
 
-$(document).ready(function(e){
-   $('#dropdownfour').on('click',function(){
-      $('.dropdownwrapfour').slideToggle();
-   });
-})
 
-$(document).ready(function(e){
-   $('#dropdownfive').on('click',function(){
-      $('.dropdownwrapfive').slideToggle();
-   });
-})
+$('#dropdowntwo').on('click',function(){
+  $('.dropdownwraptwo').slideToggle(1000);
+});
 
-$(document).ready(function(e){
-   $('#dropdownsix').on('click',function(){
-      $('.dropdownwrapsix').slideToggle();
-   });
-})
 
-$(document).ready(function(e){
-   $('#dropdownseven').on('click',function(){
-      $('.dropdownwrapseven').slideToggle();
-   });
-})
+$('#dropdownthree').on('click',function(){
+  $('.dropdownwrapthree').slideToggle(1000);
+});
 
-$(document).ready(function(e){
-   $('#dropdowneight').on('click',function(){
-      $('.dropdownwrapeight').slideToggle();
-   });
-})
 
-$(document).ready(function(e){
-   $('#dropdownnine').on('click',function(){
-      $('.dropdownwrapnine').slideToggle();
-   });
-})
+$('#dropdownfour').on('click',function(){
+  $('.dropdownwrapfour').slideToggle(1000);
+});
+
+
+$('#dropdownfive').on('click',function(){
+  $('.dropdownwrapfive').slideToggle(1000);
+});
+
+
+$('#dropdownsix').on('click',function(){
+  $('.dropdownwrapsix').slideToggle(1000);
+});
+
+
+$('#dropdownseven').on('click',function(){
+  $('.dropdownwrapseven').slideToggle(1000);
+});
+
+
+$('#dropdowneight').on('click',function(){
+  $('.dropdownwrapeight').slideToggle(1000);
+});
+
+
+$('#dropdownnine').on('click',function(){
+  $('.dropdownwrapnine').slideToggle(1000);
+});
+
+
+$ (".close").on("click",function(){
+	$(this).parent().slideToggle(1000)
+});

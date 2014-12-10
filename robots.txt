@@ -1,0 +1,3 @@
+# robotstxt.org
+
+Sitemap: http://sarahknowles.ca/sitemap.xml

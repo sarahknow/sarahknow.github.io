@@ -1,0 +1,20 @@
+/* TEAM */                         
+Sarah Knowles               
+sarahknowles.ca
+Twitter: @_sarahknowles
+Instagram: _sarahknowles_                        
+Location: Ottawa, Canada.
+
+							
+/* THANKS */			
+Thomas Bradley: Algonquin Professor
+CoDrops: https://github.com/codrops/HoverEffectIdeas
+Sarah Hodgson: Portriat Photographer
+
+                            
+/* SITE */          
+Last update: 2014/12/10    
+Standards: HTML5, CSS3,..               
+Components: Modernizr, jQuery, etc.                    
+Software: Dreamworks
+   

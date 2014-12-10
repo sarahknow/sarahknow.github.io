@@ -1,0 +1,85 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.flex {
+	width: 100%;
+}
+
+
+.gutter {
+	padding: .5rem;
+}
+
+@media only screen and (min-width: 32em){
+.l-1-1 {
+	width: 100%;
+}
+
+.s-1-2 {
+	width: 50%;
+	float: left;
+}
+
+.s-1-2-r {
+	width: 50%;
+	float: right;
+}
+	
+}
+
+
+@media only screen and (min-width: 45em){
+	.l-2-3 {
+	width: 66.6%;
+	float:left;
+}
+
+	.s-1-3 {
+	width: 33.3%;
+	float: left;
+}
+
+	.s-1-3-r {
+	width: 33.3%;
+	float: right;
+}
+
+.m-1-4 {
+	width:25%;
+	float: left;
+}
+
+.m-1-2 {
+	width: 50%;
+	float:left;
+}
+
+.m-1-4-r {
+	width:25%;
+	float: right;
+}
+
+.m-1-2-r {
+	width: 50%;
+	float: right;
+}
+}
+
+
+
+@media only screen and (min-width: 65em){
+	.l-1-2 {
+	width: 50%;
+	float: left;
+}
+
+	.l-1-2-r {
+	width: 50%;
+	float: right;
+}
+
+.s-1-4 {
+	width:25%;
+	float:left; 
+}
+}
