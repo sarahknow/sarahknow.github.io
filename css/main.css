@@ -117,8 +117,16 @@ figure img-1 {
 	margin: 0;
 }
 
+.flex {
+	width:100%;
+}
+
+.me {
+	min-width:25rem;
+}
+
 .mountain {
-	width: 10%;
+	width: 50%;
 	margin:auto;
 	padding-bottom: 2rem; 
 }
@@ -267,6 +275,10 @@ section {
 		height:auto;
 	}
 	
+	.mountain {
+	width: 30%;
+	}
+	
 }
 
 
@@ -279,6 +291,10 @@ section {
 	
 	.grid figure figcaption h2 {
 	font-size: 18px;
+}
+
+.mountain {
+	width: 15%;
 }
 }
 
