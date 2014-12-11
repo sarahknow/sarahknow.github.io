@@ -2,9 +2,9 @@ var $win = $(window);
 var $beyonce = $('.beyonce');
 var $beyonceSection = $('.beyonce-section');
 var $rugbySection = $('.rugby-section');
-var $rugby = $('.rugby')
+var $rugby = $('.rugby');
 var $contactSection = $('.contact-section');
-var $contact = $('.contact')
+var $contact = $('.contact');
 
 $win.on('scroll', function () {
 	var scrollPos = $win.scrollTop();
@@ -73,5 +73,5 @@ $('#dropdownnine').on('click',function(){
 
 
 $ (".close").on("click",function(){
-	$(this).parent().slideToggle(1000)
+	$(this).parent().slideToggle(1000);
 });
