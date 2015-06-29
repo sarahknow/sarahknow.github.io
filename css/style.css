@@ -1,4 +1,5 @@
-body {
+html {
+	height: 100%;
 	background: transparent url(../images/me-double.jpg) no-repeat top center;
 	background-size: cover;
 	font-family: "Montserrat", sans-serif;
