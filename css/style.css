@@ -1,4 +1,119 @@
 body {
-	background: transparent url"(../images/me-double.jpg") no-repeat center top;
+	background: transparent url(../images/me-double.jpg) no-repeat top center;
 	background-size: cover;
+	font-family: "Montserrat", sans-serif;
+	text-transform:uppercase;
 }
+
+.title {
+	color: #637A5B;
+	margin:auto;
+	text-align:center;
+	margin-top: 4em;
+}
+
+h1 {
+	font-weight:200;
+	font-size:25px;
+	letter-spacing: 2px;
+	margin-bottom: 0;
+}
+
+h2 {
+	font-weight:200;
+	font-size: 14px;
+	letter-spacing: 2px;
+	margin-top: 0;
+	margin-bottom: 30px;
+}
+
+
+/* Styling links - Contact Button */
+
+a.button-dark:link {
+    color: #637A5B;
+	text-decoration: none;
+}
+
+a.button-dark:visited {
+    color: #00FF00;
+}
+
+a.button-dark:hover {
+    color: #ABBAA6;
+	border: 2px #ABBAA6 solid;
+}
+
+
+/* Styling links - Other Buttons */
+
+a.button:link {
+    color: #ABBAA6;
+	text-decoration: none;
+}
+
+a.button:visited {
+    color: #00FF00;
+}
+
+a.button:hover {
+    color: #637A5B;
+	border: 2px #637A5B solid;
+}
+
+
+/* Styling links - Social Icons */
+
+a.list-group-item:link {
+    color: #ABBAA6;
+	text-decoration: none;
+}
+
+a.list-group-item:visited {
+    color: #00FF00;
+}
+
+a.list-group-item:hover {
+    color: #637A5B;
+}
+
+
+/* Buttons */
+
+.button-dark {
+	padding: 8px 25px;
+    border: 2px #637A5B solid;
+	font-weight:200;
+	font-size: 14px;
+	letter-spacing: 2px;
+}
+
+.button {
+	padding: 8px 25px;
+    border: 2px #ABBAA6 solid;
+	font-weight:200;
+	font-size: 14px;
+	letter-spacing: 2px;
+}
+
+/* Other */
+
+.store {
+	color: #ABBAA6;
+}
+
+/* Social Icons */
+
+.social-list-group {
+	width: 48%;
+	text-align:right;
+	color: #ABBAA6;
+	position:absolute; 
+	bottom: 20px;
+	right: 5%;
+}
+
+.list-group-item {
+	padding-left: 10px;
+}
+
