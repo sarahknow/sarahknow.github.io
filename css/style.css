@@ -1,5 +1,5 @@
 body {
-	background: transparent url(../images/me-double.jpg) top center;
+	background: transparent url(../images/me-double.jpg) no-repeat top center;
 	background-size: cover;
 	font-family: "Montserrat", sans-serif;
 	text-transform:uppercase;
@@ -96,10 +96,25 @@ a.list-group-item:hover {
 	letter-spacing: 2px;
 }
 
-/* Other */
+/* Store Buttons */
 
 .store {
 	color: #ABBAA6;
+	width: 48%;
+	position: absolute;
+	bottom: 20px;
+	left:5%;
+}
+
+.store-list {
+	display: inline;
+	padding: 10px;
+	width: 100%;
+}
+
+.store-list-item {
+	float: left;
+	margin-right: 20px;
 }
 
 /* Social Icons */
