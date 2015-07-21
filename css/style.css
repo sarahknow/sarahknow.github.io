@@ -45,6 +45,21 @@ a.button-dark:hover {
 	border: 2px #ABBAA6 solid;
 }
 
+/* Styling Link - Name */
+
+a.blink:link {
+    color: #637A5B;
+	text-decoration: none;
+}
+
+a.blink:visited {
+    color: #00FF00;
+}
+
+a.blink:hover {
+    color: #ABBAA6;
+}
+
 
 /* Styling links - Other Buttons */
 
